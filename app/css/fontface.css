@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "MuseoSans-500";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSans-500.eot");
+  src: url("../fonts/MuseoSans-500.eot?") format("eot"), url("../fonts/MuseoSans-500.woff") format("woff"), url("../fonts/MuseoSans-500.ttf") format("truetype"), url("../fonts/MuseoSans-500.svg#MuseoSans-500") format("svg"); }
+@font-face {
+  font-family: "MuseoSans-700";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSans-700.eot");
+  src: url("../fonts/MuseoSans-700.eot?") format("eot"), url("../fonts/MuseoSans-700.woff") format("woff"), url("../fonts/MuseoSans-700.ttf") format("truetype"), url("../fonts/MuseoSans-700.svg#MuseoSans-500") format("svg"); }
+
+/*# sourceMappingURL=fontface.css.map */

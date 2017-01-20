@@ -1,0 +1,13 @@
+$regular:'MuseoSans-500';
+$bold:'MuseoSans-700';
+
+@each $font-face in $regular, $bold {
+  @font-face {
+    font-family: $font-face; font-style: normal; font-weight: normal;
+    src: url('../fonts/#{$font-face}.eot');
+    src: url('../fonts/#{$font-face}.eot?') format('eot'),
+         url('../fonts/#{$font-face}.woff') format('woff'),
+         url('../fonts/#{$font-face}.ttf')  format('truetype'),
+         url('../fonts/#{$font-face}.svg##{$regular}') format('svg');
+  }
+}

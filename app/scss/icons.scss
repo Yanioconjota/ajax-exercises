@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'mixins';
+
+.icon-container {
+  min-height: $unit*4;
+  height: $full;
+}
+
+.icon-container-sm {
+  @extend .icon-container;
+  padding: 2em 1.5em;
+}
+
+.icon-container-md {
+  @extend .icon-container;
+  padding: 3em;
+}
+
+.icon-image {
+  @extend .icon-container-sm;
+  @include background($img-producto);
+  background-color: $sunflower;
+}

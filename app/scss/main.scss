@@ -1,0 +1,108 @@
+/*
+Import
+*/
+@import 'variables';
+@import 'fontface';
+@import 'mixins';
+@import 'icons';
+
+/*
+Positioning classes
+*/
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.vtop {
+  @extend .vcenter;
+  align-items: flex-start;
+}
+
+.vbottom {
+  @extend .vcenter;
+  align-items: flex-end;
+}
+
+/*
+Custom Styles
+*/
+
+
+.background-color {
+  background-color:$aqua;
+};
+
+.color {
+  color:$aqua;
+}
+
+.border-color {
+  border-color:$aqua;
+}
+
+body {
+  @extend .full-size;
+  font-family:$regular;
+  text-transform: uppercase;
+  hr {
+    @extend .border-color;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $bold;
+  @extend .color;
+}
+
+section {
+  margin: $unit*2 0;
+  .row {
+    margin-bottom: $unit*2;
+  }
+}
+
+
+nav.navbar-default{
+  form {
+    .input-group {
+      width: 100%;
+      input {
+        @include border-radius(0);
+        @extend .border-color;
+      }
+    }
+  }
+  .brand {
+    height: $unit*2;
+    position: relative;
+    left: -$unit;
+    top:-$unit/2;
+  }
+}
+
+.full-size {
+  width: $full;
+  height: $full;
+}
+
+.bar-height {
+  min-height: $unit*4;
+  height: $unit*4;
+  @extend .background-color;
+  position: relative;
+}
+.fa-check {color: $palegreen;}
+
+.btn {
+  @include border-radius(0);
+  border-size:1px;
+  border-style:solid;
+  @extend .color;
+  @extend .border-color;
+  &:hover {
+    @extend .color;
+    @extend .border-color;
+  }
+}

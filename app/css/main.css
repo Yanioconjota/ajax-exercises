@@ -1,0 +1,115 @@
+/*
+Import
+*/
+/*
+Resumen screen icons
+*/
+@font-face {
+  font-family: "MuseoSans-500";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSans-500.eot");
+  src: url("../fonts/MuseoSans-500.eot?") format("eot"), url("../fonts/MuseoSans-500.woff") format("woff"), url("../fonts/MuseoSans-500.ttf") format("truetype"), url("../fonts/MuseoSans-500.svg#MuseoSans-500") format("svg"); }
+@font-face {
+  font-family: "MuseoSans-700";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSans-700.eot");
+  src: url("../fonts/MuseoSans-700.eot?") format("eot"), url("../fonts/MuseoSans-700.woff") format("woff"), url("../fonts/MuseoSans-700.ttf") format("truetype"), url("../fonts/MuseoSans-700.svg#MuseoSans-500") format("svg"); }
+/*
+Resumen screen icons
+*/
+/*
+Resumen screen icons
+*/
+/*
+Resumen screen icons
+*/
+.icon-container, .icon-container-sm, .icon-image, .icon-container-md {
+  min-height: 4em;
+  height: 100%; }
+
+.icon-container-sm, .icon-image {
+  padding: 2em 1.5em; }
+
+.icon-container-md {
+  padding: 3em; }
+
+.icon-image {
+  background-image: url("../img/producto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #eebd31; }
+
+/*
+Positioning classes
+*/
+.vcenter, .vtop, .vbottom {
+  display: flex;
+  align-items: center; }
+
+.vtop {
+  align-items: flex-start; }
+
+.vbottom {
+  align-items: flex-end; }
+
+/*
+Custom Styles
+*/
+.background-color, .bar-height {
+  background-color: #65C4AE; }
+
+.color, h1, h2, h3, h4, h5, h6, .btn, .btn:hover {
+  color: #65C4AE; }
+
+.border-color, body hr, nav.navbar-default form .input-group input, .btn, .btn:hover {
+  border-color: #65C4AE; }
+
+body {
+  font-family: "MuseoSans-500";
+  text-transform: uppercase; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MuseoSans-700"; }
+
+section {
+  margin: 2em 0; }
+  section .row {
+    margin-bottom: 2em; }
+
+nav.navbar-default form .input-group {
+  width: 100%; }
+  nav.navbar-default form .input-group input {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */ }
+nav.navbar-default .brand {
+  height: 2em;
+  position: relative;
+  left: -1em;
+  top: -0.5em; }
+
+.full-size, body {
+  width: 100%;
+  height: 100%; }
+
+.bar-height {
+  min-height: 4em;
+  height: 4em;
+  position: relative; }
+
+.fa-check {
+  color: #a3c26e; }
+
+.btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border-size: 1px;
+  border-style: solid; }
+
+/*# sourceMappingURL=main.css.map */

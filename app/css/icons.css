@@ -1,0 +1,24 @@
+/*
+Resumen screen icons
+*/
+/*
+Resumen screen icons
+*/
+.icon-container, .icon-container-sm, .icon-image, .icon-container-md {
+  min-height: 4em;
+  height: 100%; }
+
+.icon-container-sm, .icon-image {
+  padding: 2em 1.5em; }
+
+.icon-container-md {
+  padding: 3em; }
+
+.icon-image {
+  background-image: url("../img/producto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #eebd31; }
+
+/*# sourceMappingURL=icons.css.map */

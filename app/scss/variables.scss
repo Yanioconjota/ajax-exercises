@@ -1,0 +1,40 @@
+
+
+$aqua:#65C4AE;
+$ltaqua: lighten( $aqua, 10% );
+$blue:#6e96c2;
+$navy:navy;
+$sunflower: #eebd31;
+$dksunflower: darken( $sunflower, 10% );
+$palegreen: #a3c26e;
+$purple:#7c6ec2;
+$pink:#c26ec1;
+$ltpink: lighten( $pink, 10% );
+$dkpink: darken( $pink, 10% );
+$clay:#c26e6e;
+$dkclay: darken( $clay, 10% );
+$greenlemon:#bde02f;
+$purple: rebeccapurple;
+$ltpurple: lighten( $purple, 20% );
+$greenaqua:#39d692;
+$gray: lighten( black, 80% );
+$ltgray: lighten( black, 90% );
+$dkgray: lighten( black, 55% );
+$white:#FFF;
+$ltwhite: rgba( $white, .15 );
+$transparent:transparent;
+
+$full:100%;
+$half:50%;
+$quarter:25%;
+
+$unit: 1em;
+
+$button-height:5.7em;
+
+
+/*
+Resumen screen icons
+*/
+
+$img-producto: '../img/producto.png';

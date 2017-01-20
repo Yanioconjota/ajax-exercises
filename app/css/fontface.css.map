@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIE,UAOC;EANC,WAAW,EALN,eAAe;EAKK,UAAU,EAAE,MAAM;EAAE,WAAW,EAAE,MAAM;EAChE,GAAG,EAAE,iCAAiC;EACtC,GAAG,EAAE,wNAG2D;AANlE,UAOC;EANC,WAAW,EAJT,eAAe;EAIQ,UAAU,EAAE,MAAM;EAAE,WAAW,EAAE,MAAM;EAChE,GAAG,EAAE,iCAAiC;EACtC,GAAG,EAAE,wNAG2D",
+"sources": ["../scss/fontface.scss"],
+"names": [],
+"file": "fontface.css"
+}

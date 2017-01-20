@@ -1,0 +1,30 @@
+{
+  "name": "ajax-exercises",
+  "version": "1.0.0",
+  "description": "Ajax exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yanioconjota/ajax-exercises.git"
+  },
+  "keywords": [
+    "ajax",
+    "jquery",
+    "http",
+    "api"
+  ],
+  "author": "Janio Isacura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanioconjota/ajax-exercises/issues"
+  },
+  "homepage": "https://github.com/Yanioconjota/ajax-exercises#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.12.4"
+  }
+}

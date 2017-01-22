@@ -19,10 +19,14 @@ var ajaxCall  	= function(){
 			console.log(res);
 			titleMovie.html("").append(res.Title);
 			yearMovie.html("").append(res.Released);
-			plotMovie.html("").append(res.Plot);
 			tomatoes.html("").append(res.Rating);
+			if (res.Plot === "N/A") {
+				plotMovie.html("").append("CHINO NO CAZA PA COMÉ!");
+			} else {
+				plotMovie.html("").append(res.Plot);
+			}
 			if (res.Poster === "N/A") {
-				imgMovie.html("").attr("src","https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/16114274_1869326616414386_2761430477896369939_n.jpg?oh=87184ab48c6313fbcc56542b32f952a7&oe=591C55D7");
+				imgMovie.html("").attr("src","app/img/pagaprata.jpg");
 			} else {
 				imgMovie.html("").attr("src",res.Poster);
 			}

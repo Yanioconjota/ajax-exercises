@@ -17,9 +17,21 @@ var ajaxCall  	= function(){
 		},
 		success: function(res, textStatus, jqXHR){
 			console.log(res);
-			titleMovie.html("").append(res.Title);
-			yearMovie.html("").append(res.Released);
-			tomatoes.html("").append(res.Rating);
+			if (res.Title === "N/A") {
+				titleMovie.html("").append("NO PERICURA!");
+			} else {
+				titleMovie.html("").append(res.Title);
+			}
+			if (res.Released === "N/A") {
+				yearMovie.html("").append("NO PERICURA!");
+			} else {
+				yearMovie.html("").append(res.Released);
+			}
+			if (res.Rating === "N/A") {
+				tomatoes.html("").append("NO PERICURA!");
+			} else {
+				tomatoes.html("").append(res.Rating);
+			}
 			if (res.Plot === "N/A") {
 				plotMovie.html("").append("CHINO NO CAZA PA COMÉ!");
 			} else {

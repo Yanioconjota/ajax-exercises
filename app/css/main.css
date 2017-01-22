@@ -64,7 +64,7 @@ Custom Styles
 .color, h1, h2, h3, h4, h5, h6, .btn, .btn:hover {
   color: #65C4AE; }
 
-.border-color, body hr, nav.navbar-default form .input-group input, .btn, .btn:hover {
+.border-color, body hr, nav.navbar-default .navbar-form .input-group input, .btn, .btn:hover {
   border-color: #65C4AE; }
 
 body {
@@ -79,9 +79,9 @@ section {
   section .row {
     margin-bottom: 2em; }
 
-nav.navbar-default form .input-group {
+nav.navbar-default .navbar-form .input-group {
   width: 100%; }
-  nav.navbar-default form .input-group input {
+  nav.navbar-default .navbar-form .input-group input {
     -webkit-border-radius: 0;
     border-radius: 0;
     background-clip: padding-box;

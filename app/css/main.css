@@ -72,13 +72,21 @@ body {
   text-transform: uppercase; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "MuseoSans-700"; }
+  font-family: "MuseoSans-700";
+  margin-top: -0.22222em; }
 
 section {
   margin: 2em 0; }
   section .row {
     margin-bottom: 2em; }
 
+nav.navbar-default .navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%; }
+  nav.navbar-default .navbar-header .navbar-brand {
+    float: none; }
 nav.navbar-default .navbar-form .input-group {
   width: 100%; }
   nav.navbar-default .navbar-form .input-group input {

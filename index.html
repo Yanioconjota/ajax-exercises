@@ -23,24 +23,22 @@
   <body>
     <nav class="navbar navbar-default">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">
-                AJAX EXERCISE
-              </a>
+        <div class="col-sm-2">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="javascript:void(0)">
+              <span>my imdb</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-10">
+          <form class="navbar-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your movie title" id="search-bar">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
             </div>
-          </div>
-          <div class="col-sm-10">
-            <form class="navbar-form">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Enter your movie title" id="search-bar">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                </span>
-              </div>
-            </form>
-          </div>
+          </form>
         </div>
       </div>
     </nav>
@@ -52,10 +50,21 @@
               <img src="" alt="" class="img-responsive img-movie">
             </div>
             <div class="col-sm-9">
-              <h2 class="movie-title"></h2>
-              <p class="year"></p>
-              <p class="plot"></p>
-              <p class="rating"></p>
+              
+              <ul class="list-unstyled">
+                <li><h2 class="movie-title"></h2></li>
+                <li class="year"></li>
+                <li class="writer"></li>
+                <li class="director"></li>
+                <li class="actors"></li>
+                <li class="awards"></li>
+                <li class="rating"></li>
+                <li class="country"></li>
+                <li class="runtime"></li>
+                <li class="genre"></li>
+                <li class="language"></li>
+                <li class="plot"></li>
+              </ul>
             </div>
           </div>
         </div>
